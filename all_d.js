@@ -1,5 +1,15 @@
 document.writeln("<script language=\"javascript\" src=\"http://vnlive.38camhoi.com/JS/LsJS.aspx?siteid=KEZ49404175&lng=en\"><\/script>");
-// document.writeln("<script language=\"javascript\" src=\"http://vnlive.dakhoaquoctehanoi.com/JS/LsJS.aspx?siteid=MEI98268253&lng=en\"><\/script>");
+setTimeout(function(){
+	if($("#LRdiv2").length<1)
+	{
+		console.log('Add subiz');
+		window._sbzq||function(e){e._sbzq=[];var t=e._sbzq;t.push(["_setAccount",61156]);var n=e.location.protocol=="https:"?"https:":"http:";var r=document.createElement("script");r.type="text/javascript";r.async=true;r.src=n+"//static.subiz.com/public/js/loader.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)}(window);
+	}
+	else{
+		console.log('Isset live');
+	}
+
+},20000);
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     
 }
