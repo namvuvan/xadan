@@ -96,8 +96,8 @@ $.fn.d_contact = function(options) {
         //var ajax = $.ajax('http://jsonip.com')
         return 0;
     }
-    var html_loading = '<div id="loading"><img src="http://lib.ytequocte.com/loading/loading.gif"><p>Phòng khám Y Tế Quốc Tế Hà Nội</p></div>';
-    var html_success = '<div id="success"><img src="http://lib.ytequocte.com/success/success.png"><p>Gửi thành công !</p><p>Chúng tôi sẽ gọi lại sau ít phút</p></div>';
+    var html_loading = '<div id="loading"><img src="http://lib.ytequocte.com/loading.gif"><p>Phòng khám Y Tế Quốc Tế Hà Nội</p></div>';
+    var html_success = '<div id="success"><img src="http://lib.ytequocte.com/success.png"><p>Gửi thành công !</p><p>Chúng tôi sẽ gọi lại sau ít phút</p></div>';
     var loading = function() {
         $('body').append(html_loading);
     }
