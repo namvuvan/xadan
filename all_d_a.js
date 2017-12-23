@@ -189,6 +189,7 @@ $(function() {
 });
 
 //iclude html in html for dedecms
+w3={};
 w3.includeHTML = function(cb) {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
